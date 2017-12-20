@@ -1,4 +1,4 @@
-package kyu6.NextBiggerNumber;
+package kyu4.NextBiggerNumber;
 
 import org.junit.jupiter.api.Test;
 

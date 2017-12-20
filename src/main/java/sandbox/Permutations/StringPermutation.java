@@ -1,10 +1,9 @@
 package sandbox.Permutations;
 
-// Java program to print all permutations of a
-// given string.
 public class StringPermutation {
     public static void main(String[] args) {
-        permute("1234", 0, "1234".length() - 1);
+        String str = "1234";
+        permute(str, 0, str.length() - 1);
     }
 
     /**
@@ -42,7 +41,4 @@ public class StringPermutation {
         charArray[j] = temp;
         return String.valueOf(charArray);
     }
-
 }
-
-// This code is contributed by Mihir Joshi
